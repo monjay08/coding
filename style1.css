@@ -1,0 +1,50 @@
+/* .whatsapp{
+    font-size: 80px;
+
+}
+
+/* .what{
+    position: absolute;
+} */ 
+*{
+    position: relative;
+} 
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
+}
+.btn-square {
+    border-radius: 0;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
